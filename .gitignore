@@ -1,0 +1,8 @@
+/*
+!dist/
+!include/
+!p2/
+!/.gitignore
+!/CNAME
+!/index.html
+!/packages.json
