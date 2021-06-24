@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "jxlwqq/json-editor": [
+            {
+                "name": "jxlwqq/json-editor",
+                "version": "v1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/laravel-admin-extensions/json-editor.git",
+                    "reference": "d260f4afa8cb1c8349653629fdd626e4f9ca4687"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/d260f4afa8cb1c8349653629fdd626e4f9ca4687",
+                    "reference": "d260f4afa8cb1c8349653629fdd626e4f9ca4687"
+                },
+                "require": {
+                    "encore/laravel-admin": "~1.6",
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Jxlwqq\\JsonEditor\\JsonEditorServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Jxlwqq\\JsonEditor\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "jxlwqq",
+                        "email": "jxlwqq@gmail.com"
+                    }
+                ],
+                "description": "JSON Editor for Laravel-admin",
+                "homepage": "https://github.com/jxlwqq/json-editor",
+                "keywords": [
+                    "extension",
+                    "laravel-admin"
+                ]
+            }
+        ]
+    }
+}

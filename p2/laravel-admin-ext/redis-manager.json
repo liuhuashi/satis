@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "laravel-admin-ext/redis-manager": [
+            {
+                "name": "laravel-admin-ext/redis-manager",
+                "version": "v1.3",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/laravel-admin-extensions/redis-manager.git",
+                    "reference": "d3ce8862df03e601387394a0bc1ee53822a39941"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/d3ce8862df03e601387394a0bc1ee53822a39941",
+                    "reference": "d3ce8862df03e601387394a0bc1ee53822a39941"
+                },
+                "require": {
+                    "encore/laravel-admin": "~1.5",
+                    "php": ">=7.0.0",
+                    "predis/predis": "~1.0"
+                },
+                "require-dev": {
+                    "laravel/laravel": "~5.5",
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Encore\\Admin\\RedisManager\\RedisManagerServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Encore\\Admin\\RedisManager\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "z-song",
+                        "email": "zosong@126.com"
+                    }
+                ],
+                "description": "Redis manager for laravel-admin",
+                "homepage": "https://github.com/laravel-admin-extensions/redis-manager",
+                "keywords": [
+                    "laravel-admin",
+                    "manager",
+                    "redis"
+                ]
+            }
+        ]
+    }
+}

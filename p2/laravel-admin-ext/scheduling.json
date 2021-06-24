@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "laravel-admin-ext/scheduling": [
+            {
+                "name": "laravel-admin-ext/scheduling",
+                "version": "v1.1",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/laravel-admin-extensions/scheduling.git",
+                    "reference": "72bd03a2917a7d479b019ccc64e991c7d5bec7bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/72bd03a2917a7d479b019ccc64e991c7d5bec7bb",
+                    "reference": "72bd03a2917a7d479b019ccc64e991c7d5bec7bb"
+                },
+                "require": {
+                    "encore/laravel-admin": "~1.5",
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "laravel/laravel": "~5.5",
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Encore\\Admin\\Scheduling\\SchedulingServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Encore\\Admin\\Scheduling\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "z-song",
+                        "email": "zosong@126.com"
+                    }
+                ],
+                "description": "Task scheduling extension for laravel-admin",
+                "homepage": "https://github.com/laravel-admin-extensions/scheduling",
+                "keywords": [
+                    "Scheduling",
+                    "laravel-admin",
+                    "task"
+                ]
+            }
+        ]
+    }
+}

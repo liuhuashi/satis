@@ -1,0 +1,138 @@
+{
+    "packages": {
+        "phpspec/prophecy": [
+            {
+                "name": "phpspec/prophecy",
+                "version": "1.12.2",
+                "version_normalized": "1.12.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpspec/prophecy.git",
+                    "reference": "245710e971a030f42e08f4912863805570f23d39"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/245710e971a030f42e08f4912863805570f23d39",
+                    "reference": "245710e971a030f42e08f4912863805570f23d39"
+                },
+                "require": {
+                    "doctrine/instantiator": "^1.2",
+                    "php": "^7.2 || ~8.0, <8.1",
+                    "phpdocumentor/reflection-docblock": "^5.2",
+                    "sebastian/comparator": "^3.0 || ^4.0",
+                    "sebastian/recursion-context": "^3.0 || ^4.0"
+                },
+                "require-dev": {
+                    "phpspec/phpspec": "^6.0",
+                    "phpunit/phpunit": "^8.0 || ^9.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.11.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Prophecy\\": "src/Prophecy"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Fixtures\\Prophecy\\": "fixtures"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    },
+                    {
+                        "name": "Marcello Duarte",
+                        "email": "marcello.duarte@gmail.com"
+                    }
+                ],
+                "description": "Highly opinionated mocking framework for PHP 5.3+",
+                "homepage": "https://github.com/phpspec/prophecy",
+                "keywords": [
+                    "Double",
+                    "Dummy",
+                    "Fake",
+                    "Mock",
+                    "Spy",
+                    "Stub"
+                ]
+            },
+            {
+                "name": "phpspec/prophecy",
+                "version": "1.13.0",
+                "version_normalized": "1.13.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpspec/prophecy.git",
+                    "reference": "be1996ed8adc35c3fd795488a653f4b518be70ea"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/be1996ed8adc35c3fd795488a653f4b518be70ea",
+                    "reference": "be1996ed8adc35c3fd795488a653f4b518be70ea"
+                },
+                "require": {
+                    "doctrine/instantiator": "^1.2",
+                    "php": "^7.2 || ~8.0, <8.1",
+                    "phpdocumentor/reflection-docblock": "^5.2",
+                    "sebastian/comparator": "^3.0 || ^4.0",
+                    "sebastian/recursion-context": "^3.0 || ^4.0"
+                },
+                "require-dev": {
+                    "phpspec/phpspec": "^6.0",
+                    "phpunit/phpunit": "^8.0 || ^9.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.11.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Prophecy\\": "src/Prophecy"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Fixtures\\Prophecy\\": "fixtures"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Konstantin Kudryashov",
+                        "email": "ever.zet@gmail.com",
+                        "homepage": "http://everzet.com"
+                    },
+                    {
+                        "name": "Marcello Duarte",
+                        "email": "marcello.duarte@gmail.com"
+                    }
+                ],
+                "description": "Highly opinionated mocking framework for PHP 5.3+",
+                "homepage": "https://github.com/phpspec/prophecy",
+                "keywords": [
+                    "Double",
+                    "Dummy",
+                    "Fake",
+                    "Mock",
+                    "Spy",
+                    "Stub"
+                ]
+            }
+        ]
+    }
+}

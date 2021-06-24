@@ -1,0 +1,61 @@
+{
+    "packages": {
+        "mtdowling/jmespath.php": [
+            {
+                "name": "mtdowling/jmespath.php",
+                "version": "2.6.0",
+                "version_normalized": "2.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/jmespath/jmespath.php.git",
+                    "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/42dae2cbd13154083ca6d70099692fef8ca84bfb",
+                    "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb"
+                },
+                "require": {
+                    "php": "^5.4 || ^7.0 || ^8.0",
+                    "symfony/polyfill-mbstring": "^1.17"
+                },
+                "require-dev": {
+                    "composer/xdebug-handler": "^1.4",
+                    "phpunit/phpunit": "^4.8.36 || ^7.5.15"
+                },
+                "bin": [
+                    "bin/jp.php"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.6-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "JmesPath\\": "src/"
+                    },
+                    "files": [
+                        "src/JmesPath.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Michael Dowling",
+                        "email": "mtdowling@gmail.com",
+                        "homepage": "https://github.com/mtdowling"
+                    }
+                ],
+                "description": "Declaratively specify how to extract elements from a JSON document",
+                "keywords": [
+                    "json",
+                    "jsonpath"
+                ]
+            }
+        ]
+    }
+}

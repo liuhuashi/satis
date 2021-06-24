@@ -1,0 +1,65 @@
+{
+    "packages": {
+        "phpunit/php-invoker": [
+            {
+                "name": "phpunit/php-invoker",
+                "version": "3.1.1",
+                "version_normalized": "3.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/php-invoker.git",
+                    "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
+                    "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67"
+                },
+                "require": {
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "ext-pcntl": "*",
+                    "phpunit/phpunit": "^9.3"
+                },
+                "suggest": {
+                    "ext-pcntl": "*"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.1-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/_fixture/"
+                    ]
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Invoke callables with a timeout",
+                "homepage": "https://github.com/sebastianbergmann/php-invoker/",
+                "keywords": [
+                    "process"
+                ],
+                "support": {
+                    "issues": "https://github.com/sebastianbergmann/php-invoker/issues"
+                }
+            }
+        ]
+    }
+}

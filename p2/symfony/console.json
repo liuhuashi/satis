@@ -1,0 +1,319 @@
+{
+    "packages": {
+        "symfony/console": [
+            {
+                "name": "symfony/console",
+                "version": "v5.2.5",
+                "version_normalized": "5.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "938ebbadae1b0a9c9d1ec313f87f9708609f1b79"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/938ebbadae1b0a9c9d1ec313f87f9708609f1b79",
+                    "reference": "938ebbadae1b0a9c9d1ec313f87f9708609f1b79"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php73": "^1.8",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/service-contracts": "^1.1|^2",
+                    "symfony/string": "^5.1"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<4.4",
+                    "symfony/dotenv": "<5.1",
+                    "symfony/event-dispatcher": "<4.4",
+                    "symfony/lock": "<4.4",
+                    "symfony/process": "<4.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0",
+                    "symfony/event-dispatcher": "^4.4|^5.0",
+                    "symfony/lock": "^4.4|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ]
+            },
+            {
+                "name": "symfony/console",
+                "version": "v5.3.2",
+                "version_normalized": "5.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "649730483885ff2ca99ca0560ef0e5f6b03f2ac1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/649730483885ff2ca99ca0560ef0e5f6b03f2ac1",
+                    "reference": "649730483885ff2ca99ca0560ef0e5f6b03f2ac1"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php73": "^1.8",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/service-contracts": "^1.1|^2",
+                    "symfony/string": "^5.1"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<4.4",
+                    "symfony/dotenv": "<5.1",
+                    "symfony/event-dispatcher": "<4.4",
+                    "symfony/lock": "<4.4",
+                    "symfony/process": "<4.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0",
+                    "symfony/event-dispatcher": "^4.4|^5.0",
+                    "symfony/lock": "^4.4|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ]
+            },
+            {
+                "name": "symfony/console",
+                "version": "v5.2.6",
+                "version_normalized": "5.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/35f039df40a3b335ebf310f244cb242b3a83ac8d",
+                    "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php73": "^1.8",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/service-contracts": "^1.1|^2",
+                    "symfony/string": "^5.1"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<4.4",
+                    "symfony/dotenv": "<5.1",
+                    "symfony/event-dispatcher": "<4.4",
+                    "symfony/lock": "<4.4",
+                    "symfony/process": "<4.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0",
+                    "symfony/event-dispatcher": "^4.4|^5.0",
+                    "symfony/lock": "^4.4|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ]
+            },
+            {
+                "name": "symfony/console",
+                "version": "v5.2.7",
+                "version_normalized": "5.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/console.git",
+                    "reference": "90374b8ed059325b49a29b55b3f8bb4062c87629"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/90374b8ed059325b49a29b55b3f8bb4062c87629",
+                    "reference": "90374b8ed059325b49a29b55b3f8bb4062c87629"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-mbstring": "~1.0",
+                    "symfony/polyfill-php73": "^1.8",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/service-contracts": "^1.1|^2",
+                    "symfony/string": "^5.1"
+                },
+                "conflict": {
+                    "symfony/dependency-injection": "<4.4",
+                    "symfony/dotenv": "<5.1",
+                    "symfony/event-dispatcher": "<4.4",
+                    "symfony/lock": "<4.4",
+                    "symfony/process": "<4.4"
+                },
+                "provide": {
+                    "psr/log-implementation": "1.0"
+                },
+                "require-dev": {
+                    "psr/log": "~1.0",
+                    "symfony/config": "^4.4|^5.0",
+                    "symfony/dependency-injection": "^4.4|^5.0",
+                    "symfony/event-dispatcher": "^4.4|^5.0",
+                    "symfony/lock": "^4.4|^5.0",
+                    "symfony/process": "^4.4|^5.0",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "psr/log": "For using the console logger",
+                    "symfony/event-dispatcher": "",
+                    "symfony/lock": "",
+                    "symfony/process": ""
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Console\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Eases the creation of beautiful and testable command line interfaces",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "cli",
+                    "command line",
+                    "console",
+                    "terminal"
+                ]
+            }
+        ]
+    }
+}

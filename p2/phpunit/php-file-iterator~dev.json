@@ -1,0 +1,5 @@
+{
+    "packages": {
+        "phpunit/php-file-iterator": []
+    }
+}

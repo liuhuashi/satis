@@ -1,0 +1,68 @@
+{
+    "packages": {
+        "dragonmantank/cron-expression": [
+            {
+                "name": "dragonmantank/cron-expression",
+                "version": "v3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/dragonmantank/cron-expression.git",
+                    "reference": "7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c",
+                    "reference": "7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c"
+                },
+                "require": {
+                    "php": "^7.2|^8.0",
+                    "webmozart/assert": "^1.7.0"
+                },
+                "replace": {
+                    "mtdowling/cron-expression": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/extension-installer": "^1.0",
+                    "phpstan/phpstan": "^0.12",
+                    "phpstan/phpstan-webmozart-assert": "^0.12.7",
+                    "phpunit/phpunit": "^7.0|^8.0|^9.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Cron\\": "src/Cron/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cron\\Tests\\": "tests/Cron/"
+                    }
+                },
+                "scripts": {
+                    "phpstan": [
+                        "./vendor/bin/phpstan analyse -l max src"
+                    ],
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Tankersley",
+                        "email": "chris@ctankersley.com",
+                        "homepage": "https://github.com/dragonmantank"
+                    }
+                ],
+                "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+                "keywords": [
+                    "cron",
+                    "schedule"
+                ]
+            }
+        ]
+    }
+}

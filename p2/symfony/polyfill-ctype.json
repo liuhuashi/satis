@@ -1,0 +1,126 @@
+{
+    "packages": {
+        "symfony/polyfill-ctype": [
+            {
+                "name": "symfony/polyfill-ctype",
+                "version": "v1.22.1",
+                "version_normalized": "1.22.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-ctype.git",
+                    "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/c6c942b1ac76c82448322025e084cadc56048b4e",
+                    "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "suggest": {
+                    "ext-ctype": "For best performance"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.22-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/polyfill",
+                        "url": "https://github.com/symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Ctype\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gert de Pagter",
+                        "email": "BackEndTea@gmail.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for ctype functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "ctype",
+                    "polyfill",
+                    "portable"
+                ]
+            },
+            {
+                "name": "symfony/polyfill-ctype",
+                "version": "v1.23.0",
+                "version_normalized": "1.23.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-ctype.git",
+                    "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/46cd95797e9df938fdd2b03693b5fca5e64b01ce",
+                    "reference": "46cd95797e9df938fdd2b03693b5fca5e64b01ce"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "suggest": {
+                    "ext-ctype": "For best performance"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/polyfill",
+                        "url": "https://github.com/symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Ctype\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gert de Pagter",
+                        "email": "BackEndTea@gmail.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill for ctype functions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "ctype",
+                    "polyfill",
+                    "portable"
+                ]
+            }
+        ]
+    }
+}

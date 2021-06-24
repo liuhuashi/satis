@@ -1,0 +1,156 @@
+{
+    "packages": {
+        "symfony/error-handler": [
+            {
+                "name": "symfony/error-handler",
+                "version": "v5.2.4",
+                "version_normalized": "5.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/error-handler.git",
+                    "reference": "b547d3babcab5c31e01de59ee33e9d9c1421d7d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/b547d3babcab5c31e01de59ee33e9d9c1421d7d0",
+                    "reference": "b547d3babcab5c31e01de59ee33e9d9c1421d7d0"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/log": "^1.0",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "require-dev": {
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/http-kernel": "^4.4|^5.0",
+                    "symfony/serializer": "^4.4|^5.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\ErrorHandler\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to manage errors and ease debugging PHP code",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/error-handler",
+                "version": "v5.2.6",
+                "version_normalized": "5.2.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/error-handler.git",
+                    "reference": "bdb7fb4188da7f4211e4b88350ba0dfdad002b03"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/bdb7fb4188da7f4211e4b88350ba0dfdad002b03",
+                    "reference": "bdb7fb4188da7f4211e4b88350ba0dfdad002b03"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/log": "^1.0",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "require-dev": {
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/http-kernel": "^4.4|^5.0",
+                    "symfony/serializer": "^4.4|^5.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\ErrorHandler\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to manage errors and ease debugging PHP code",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/error-handler",
+                "version": "v5.2.7",
+                "version_normalized": "5.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/error-handler.git",
+                    "reference": "ea3ddbf67615e883ca7c33a4de61213789846782"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/ea3ddbf67615e883ca7c33a4de61213789846782",
+                    "reference": "ea3ddbf67615e883ca7c33a4de61213789846782"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/log": "^1.0",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "require-dev": {
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/http-kernel": "^4.4|^5.0",
+                    "symfony/serializer": "^4.4|^5.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\ErrorHandler\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to manage errors and ease debugging PHP code",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

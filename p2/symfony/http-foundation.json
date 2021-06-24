@@ -1,0 +1,114 @@
+{
+    "packages": {
+        "symfony/http-foundation": [
+            {
+                "name": "symfony/http-foundation",
+                "version": "v5.2.4",
+                "version_normalized": "5.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/http-foundation.git",
+                    "reference": "54499baea7f7418bce7b5ec92770fd0799e8e9bf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/54499baea7f7418bce7b5ec92770fd0799e8e9bf",
+                    "reference": "54499baea7f7418bce7b5ec92770fd0799e8e9bf"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/polyfill-mbstring": "~1.1",
+                    "symfony/polyfill-php80": "^1.15"
+                },
+                "require-dev": {
+                    "predis/predis": "~1.0",
+                    "symfony/cache": "^4.4|^5.0",
+                    "symfony/expression-language": "^4.4|^5.0",
+                    "symfony/mime": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "symfony/mime": "To use the file extension guesser"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\HttpFoundation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Defines an object-oriented layer for the HTTP specification",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/http-foundation",
+                "version": "v5.2.7",
+                "version_normalized": "5.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/http-foundation.git",
+                    "reference": "a416487a73bb9c9d120e9ba3a60547f4a3fb7a1f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/a416487a73bb9c9d120e9ba3a60547f4a3fb7a1f",
+                    "reference": "a416487a73bb9c9d120e9ba3a60547f4a3fb7a1f"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/polyfill-mbstring": "~1.1",
+                    "symfony/polyfill-php80": "^1.15"
+                },
+                "require-dev": {
+                    "predis/predis": "~1.0",
+                    "symfony/cache": "^4.4|^5.0",
+                    "symfony/expression-language": "^4.4|^5.0",
+                    "symfony/mime": "^4.4|^5.0"
+                },
+                "suggest": {
+                    "symfony/mime": "To use the file extension guesser"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\HttpFoundation\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Defines an object-oriented layer for the HTTP specification",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "myclabs/deep-copy": [
+            {
+                "name": "myclabs/deep-copy",
+                "version": "1.10.2",
+                "version_normalized": "1.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/myclabs/DeepCopy.git",
+                    "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/776f831124e9c62e1a2c601ecc52e776d8bb7220",
+                    "reference": "776f831124e9c62e1a2c601ecc52e776d8bb7220"
+                },
+                "require": {
+                    "php": "^7.1 || ^8.0"
+                },
+                "replace": {
+                    "myclabs/deep-copy": "self.version"
+                },
+                "require-dev": {
+                    "doctrine/collections": "^1.0",
+                    "doctrine/common": "^2.6",
+                    "phpunit/phpunit": "^7.1"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "DeepCopy\\": "src/DeepCopy/"
+                    },
+                    "files": [
+                        "src/DeepCopy/deep_copy.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "DeepCopy\\": "fixtures/",
+                        "DeepCopyTest\\": "tests/DeepCopyTest/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Create deep copies (clones) of your objects",
+                "keywords": [
+                    "clone",
+                    "copy",
+                    "duplicate",
+                    "object",
+                    "object graph"
+                ]
+            }
+        ]
+    }
+}

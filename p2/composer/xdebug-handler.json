@@ -1,0 +1,182 @@
+{
+    "packages": {
+        "composer/xdebug-handler": [
+            {
+                "name": "composer/xdebug-handler",
+                "version": "1.4.5",
+                "version_normalized": "1.4.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/xdebug-handler.git",
+                    "reference": "f28d44c286812c714741478d968104c5e604a1d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/f28d44c286812c714741478d968104c5e604a1d4",
+                    "reference": "f28d44c286812c714741478d968104c5e604a1d4"
+                },
+                "require": {
+                    "php": "^5.3.2 || ^7.0 || ^8.0",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\XdebugHandler\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Composer\\XdebugHandler\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "John Stevenson",
+                        "email": "john-stevenson@blueyonder.co.uk"
+                    }
+                ],
+                "description": "Restarts a process without Xdebug.",
+                "keywords": [
+                    "performance",
+                    "xdebug"
+                ],
+                "support": {
+                    "irc": "irc://irc.freenode.org/composer",
+                    "issues": "https://github.com/composer/xdebug-handler/issues"
+                }
+            },
+            {
+                "name": "composer/xdebug-handler",
+                "version": "1.4.6",
+                "version_normalized": "1.4.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/xdebug-handler.git",
+                    "reference": "f27e06cd9675801df441b3656569b328e04aa37c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/f27e06cd9675801df441b3656569b328e04aa37c",
+                    "reference": "f27e06cd9675801df441b3656569b328e04aa37c"
+                },
+                "require": {
+                    "php": "^5.3.2 || ^7.0 || ^8.0",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^0.12.55",
+                    "symfony/phpunit-bridge": "^4.2 || ^5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\XdebugHandler\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Composer\\XdebugHandler\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "SYMFONY_PHPUNIT_REMOVE_RETURN_TYPEHINT=1 vendor/bin/simple-phpunit"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "John Stevenson",
+                        "email": "john-stevenson@blueyonder.co.uk"
+                    }
+                ],
+                "description": "Restarts a process without Xdebug.",
+                "keywords": [
+                    "performance",
+                    "xdebug"
+                ],
+                "support": {
+                    "irc": "irc://irc.freenode.org/composer",
+                    "issues": "https://github.com/composer/xdebug-handler/issues"
+                }
+            },
+            {
+                "name": "composer/xdebug-handler",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/xdebug-handler.git",
+                    "reference": "964adcdd3a28bf9ed5d9ac6450064e0d71ed7496"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/964adcdd3a28bf9ed5d9ac6450064e0d71ed7496",
+                    "reference": "964adcdd3a28bf9ed5d9ac6450064e0d71ed7496"
+                },
+                "require": {
+                    "php": "^5.3.2 || ^7.0 || ^8.0",
+                    "psr/log": "^1.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^0.12.55",
+                    "symfony/phpunit-bridge": "^4.2 || ^5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\XdebugHandler\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Composer\\XdebugHandler\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/simple-phpunit"
+                    ],
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "John Stevenson",
+                        "email": "john-stevenson@blueyonder.co.uk"
+                    }
+                ],
+                "description": "Restarts a process without Xdebug.",
+                "keywords": [
+                    "performance",
+                    "xdebug"
+                ],
+                "support": {
+                    "irc": "irc://irc.freenode.org/composer",
+                    "issues": "https://github.com/composer/xdebug-handler/issues"
+                }
+            }
+        ]
+    }
+}

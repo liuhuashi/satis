@@ -1,0 +1,129 @@
+{
+    "packages": {
+        "alibabacloud/client": [
+            {
+                "name": "alibabacloud/client",
+                "version": "1.5.31",
+                "version_normalized": "1.5.31.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/aliyun/openapi-sdk-php-client.git",
+                    "reference": "19224d92fe27ab8ef501d77d4891e7660bc023c1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/19224d92fe27ab8ef501d77d4891e7660bc023c1",
+                    "reference": "19224d92fe27ab8ef501d77d4891e7660bc023c1"
+                },
+                "require": {
+                    "adbario/php-dot-notation": "^2.2",
+                    "clagiordano/weblibs-configmanager": "^1.0",
+                    "danielstjules/stringy": "^3.1",
+                    "ext-curl": "*",
+                    "ext-json": "*",
+                    "ext-libxml": "*",
+                    "ext-mbstring": "*",
+                    "ext-openssl": "*",
+                    "ext-simplexml": "*",
+                    "ext-xmlwriter": "*",
+                    "guzzlehttp/guzzle": "^6.3|^7.0",
+                    "mtdowling/jmespath.php": "^2.5",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.8",
+                    "drupal/coder": "^8.3",
+                    "ext-dom": "*",
+                    "ext-pcre": "*",
+                    "ext-sockets": "*",
+                    "ext-spl": "*",
+                    "league/climate": "^3.2.4",
+                    "mikey179/vfsstream": "^1.6",
+                    "monolog/monolog": "^1.24",
+                    "phpunit/phpunit": "^5.7.27|^6.1",
+                    "psr/cache": "^1.0",
+                    "symfony/dotenv": "^3.4",
+                    "symfony/var-dumper": "^3.4"
+                },
+                "suggest": {
+                    "ext-sockets": "To use client-side monitoring"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "AlibabaCloud\\Client\\": "src"
+                    },
+                    "files": [
+                        "src/Functions.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "AlibabaCloud\\Client\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "cs": [
+                        "phpcs --standard=PSR2 -n ./"
+                    ],
+                    "cbf": [
+                        "phpcbf --standard=PSR2 -n ./"
+                    ],
+                    "fixer": [
+                        "php-cs-fixer fix ./"
+                    ],
+                    "test": [
+                        "phpunit --colors=always"
+                    ],
+                    "unit": [
+                        "@clearCache",
+                        "phpunit --testsuite=Unit --colors=always"
+                    ],
+                    "feature": [
+                        "@clearCache",
+                        "phpunit --testsuite=Feature --colors=always"
+                    ],
+                    "coverage": [
+                        "open cache/coverage/index.html"
+                    ],
+                    "clearCache": [
+                        "rm -rf cache/*"
+                    ],
+                    "endpoints": [
+                        "AlibabaCloud\\Client\\Regions\\LocationService::updateEndpoints",
+                        "@fixer"
+                    ],
+                    "release": [
+                        "AlibabaCloud\\Client\\Release::release"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Alibaba Cloud SDK",
+                        "email": "sdk-team@alibabacloud.com",
+                        "homepage": "http://www.alibabacloud.com"
+                    }
+                ],
+                "description": "Alibaba Cloud Client for PHP - Use Alibaba Cloud in your PHP project",
+                "homepage": "https://www.alibabacloud.com/",
+                "keywords": [
+                    "alibaba",
+                    "alibabacloud",
+                    "aliyun",
+                    "client",
+                    "cloud",
+                    "library",
+                    "sdk",
+                    "tool"
+                ],
+                "support": {
+                    "source": "https://github.com/aliyun/openapi-sdk-php-client",
+                    "issues": "https://github.com/aliyun/openapi-sdk-php-client/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "packages": {
+        "doctrine/lexer": [
+            {
+                "name": "doctrine/lexer",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/lexer.git",
+                    "reference": "e864bbf5904cb8f5bb334f99209b48018522f042"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/e864bbf5904cb8f5bb334f99209b48018522f042",
+                    "reference": "e864bbf5904cb8f5bb334f99209b48018522f042"
+                },
+                "require": {
+                    "php": "^7.2 || ^8.0"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^6.0",
+                    "phpstan/phpstan": "^0.11.8",
+                    "phpunit/phpunit": "^8.2"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Doctrine\\Tests\\": "tests/Doctrine"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    }
+                ],
+                "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
+                "homepage": "https://www.doctrine-project.org/projects/lexer.html",
+                "keywords": [
+                    "annotations",
+                    "docblock",
+                    "lexer",
+                    "parser",
+                    "php"
+                ]
+            }
+        ]
+    }
+}

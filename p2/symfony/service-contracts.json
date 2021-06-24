@@ -1,0 +1,126 @@
+{
+    "packages": {
+        "symfony/service-contracts": [
+            {
+                "name": "symfony/service-contracts",
+                "version": "v2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/d15da7ba4957ffb8f1747218be9e1a121fd298a1",
+                    "reference": "d15da7ba4957ffb8f1747218be9e1a121fd298a1"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/container": "^1.0"
+                },
+                "suggest": {
+                    "symfony/service-implementation": ""
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ]
+            },
+            {
+                "name": "symfony/service-contracts",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/service-contracts.git",
+                    "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+                    "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/container": "^1.1"
+                },
+                "suggest": {
+                    "symfony/service-implementation": ""
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "2.4-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Service\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to writing services",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ]
+            }
+        ]
+    }
+}

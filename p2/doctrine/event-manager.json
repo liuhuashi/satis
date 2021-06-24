@@ -1,0 +1,85 @@
+{
+    "packages": {
+        "doctrine/event-manager": [
+            {
+                "name": "doctrine/event-manager",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/doctrine/event-manager.git",
+                    "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/41370af6a30faa9dc0368c4a6814d596e81aba7f",
+                    "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f"
+                },
+                "require": {
+                    "php": "^7.1 || ^8.0"
+                },
+                "conflict": {
+                    "doctrine/common": "<2.9@dev"
+                },
+                "require-dev": {
+                    "doctrine/coding-standard": "^6.0",
+                    "phpunit/phpunit": "^7.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Common\\": "lib/Doctrine/Common"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Doctrine\\Tests\\": "tests/Doctrine/Tests"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Guilherme Blanco",
+                        "email": "guilhermeblanco@gmail.com"
+                    },
+                    {
+                        "name": "Roman Borschel",
+                        "email": "roman@code-factory.org"
+                    },
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Jonathan Wage",
+                        "email": "jonwage@gmail.com"
+                    },
+                    {
+                        "name": "Johannes Schmitt",
+                        "email": "schmittjoh@gmail.com"
+                    },
+                    {
+                        "name": "Marco Pivetta",
+                        "email": "ocramius@gmail.com"
+                    }
+                ],
+                "description": "The Doctrine Event Manager is a simple PHP event system that was built to be used with the various Doctrine projects.",
+                "homepage": "https://www.doctrine-project.org/projects/event-manager.html",
+                "keywords": [
+                    "event",
+                    "event dispatcher",
+                    "event manager",
+                    "event system",
+                    "events"
+                ]
+            }
+        ]
+    }
+}

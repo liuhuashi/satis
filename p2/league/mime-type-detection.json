@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "league/mime-type-detection": [
+            {
+                "name": "league/mime-type-detection",
+                "version": "1.7.0",
+                "version_normalized": "1.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thephpleague/mime-type-detection.git",
+                    "reference": "3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3",
+                    "reference": "3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3"
+                },
+                "require": {
+                    "ext-fileinfo": "*",
+                    "php": "^7.2 || ^8.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^2.18",
+                    "phpstan/phpstan": "^0.12.68",
+                    "phpunit/phpunit": "^8.5.8 || ^9.3"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "League\\MimeTypeDetection\\": "src"
+                    }
+                },
+                "scripts": {
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse -l 6 src"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Frank de Jonge",
+                        "email": "info@frankdejonge.nl"
+                    }
+                ],
+                "description": "Mime-type detection for Flysystem"
+            }
+        ]
+    }
+}

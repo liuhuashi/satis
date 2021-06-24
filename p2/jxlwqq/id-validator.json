@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "jxlwqq/id-validator": [
+            {
+                "name": "jxlwqq/id-validator",
+                "version": "1.4.28",
+                "version_normalized": "1.4.28.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/jxlwqq/id-validator.git",
+                    "reference": "b3e175a8470dd3da789fd0e9e26e5b7cd514fd5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/b3e175a8470dd3da789fd0e9e26e5b7cd514fd5c",
+                    "reference": "b3e175a8470dd3da789fd0e9e26e5b7cd514fd5c"
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": ">=5.6"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Jxlwqq\\IdValidator\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Jxlwqq\\IdValidator\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "./vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "jxlwqq",
+                        "email": "jxlwqq@gmail.com",
+                        "homepage": "https://jxlwqq.github.io"
+                    }
+                ],
+                "description": "Chinese Mainland Personal ID Card Validation"
+            }
+        ]
+    }
+}

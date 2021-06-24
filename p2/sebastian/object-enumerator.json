@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "sebastian/object-enumerator": [
+            {
+                "name": "sebastian/object-enumerator",
+                "version": "4.0.4",
+                "version_normalized": "4.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+                    "reference": "5c9eeac41b290a3712d88851518825ad78f45c71"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/5c9eeac41b290a3712d88851518825ad78f45c71",
+                    "reference": "5c9eeac41b290a3712d88851518825ad78f45c71"
+                },
+                "require": {
+                    "php": ">=7.3",
+                    "sebastian/object-reflector": "^2.0",
+                    "sebastian/recursion-context": "^4.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.3"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/_fixture/"
+                    ]
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de"
+                    }
+                ],
+                "description": "Traverses array structures and object graphs to enumerate all referenced objects",
+                "homepage": "https://github.com/sebastianbergmann/object-enumerator/"
+            }
+        ]
+    }
+}

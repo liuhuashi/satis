@@ -1,0 +1,126 @@
+{
+    "packages": {
+        "symfony/event-dispatcher-contracts": [
+            {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "v2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "0ba7d54483095a198fa51781bc608d17e84dffa2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/0ba7d54483095a198fa51781bc608d17e84dffa2",
+                    "reference": "0ba7d54483095a198fa51781bc608d17e84dffa2"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/event-dispatcher": "^1"
+                },
+                "suggest": {
+                    "symfony/event-dispatcher-implementation": ""
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ]
+            },
+            {
+                "name": "symfony/event-dispatcher-contracts",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                    "reference": "69fee1ad2332a7cbab3aca13591953da9cdb7a11"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/69fee1ad2332a7cbab3aca13591953da9cdb7a11",
+                    "reference": "69fee1ad2332a7cbab3aca13591953da9cdb7a11"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/event-dispatcher": "^1"
+                },
+                "suggest": {
+                    "symfony/event-dispatcher-implementation": ""
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "2.4-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\EventDispatcher\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to dispatching event",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ]
+            }
+        ]
+    }
+}

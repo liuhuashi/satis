@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "sebastian/code-unit": [
+            {
+                "name": "sebastian/code-unit",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sebastianbergmann/code-unit.git",
+                    "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/1fc9f64c0927627ef78ba436c9b17d967e68e120",
+                    "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120"
+                },
+                "require": {
+                    "php": ">=7.3"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.3"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "src/"
+                    ]
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests/_fixture"
+                    ],
+                    "files": [
+                        "tests/_fixture/file_with_multiple_code_units.php",
+                        "tests/_fixture/function.php"
+                    ]
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Sebastian Bergmann",
+                        "email": "sebastian@phpunit.de",
+                        "role": "lead"
+                    }
+                ],
+                "description": "Collection of value objects that represent the PHP code units",
+                "homepage": "https://github.com/sebastianbergmann/code-unit",
+                "support": {
+                    "issues": "https://github.com/sebastianbergmann/code-unit/issues"
+                }
+            }
+        ]
+    }
+}

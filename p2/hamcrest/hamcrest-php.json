@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "hamcrest/hamcrest-php": [
+            {
+                "name": "hamcrest/hamcrest-php",
+                "version": "v2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/hamcrest/hamcrest-php.git",
+                    "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/8c3d0a3f6af734494ad8f6fbbee0ba92422859f3",
+                    "reference": "8c3d0a3f6af734494ad8f6fbbee0ba92422859f3"
+                },
+                "require": {
+                    "php": "^5.3|^7.0|^8.0"
+                },
+                "replace": {
+                    "cordoval/hamcrest-php": "*",
+                    "davedevelopment/hamcrest-php": "*",
+                    "kodova/hamcrest-php": "*"
+                },
+                "require-dev": {
+                    "phpunit/php-file-iterator": "^1.4 || ^2.0",
+                    "phpunit/phpunit": "^4.8.36 || ^5.7 || ^6.5 || ^7.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.1-dev"
+                    }
+                },
+                "autoload": {
+                    "classmap": [
+                        "hamcrest"
+                    ]
+                },
+                "autoload-dev": {
+                    "classmap": [
+                        "tests",
+                        "generator"
+                    ]
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "description": "This is the PHP port of Hamcrest Matchers",
+                "keywords": [
+                    "test"
+                ]
+            }
+        ]
+    }
+}

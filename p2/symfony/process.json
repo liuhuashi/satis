@@ -1,0 +1,135 @@
+{
+    "packages": {
+        "symfony/process": [
+            {
+                "name": "symfony/process",
+                "version": "v5.2.4",
+                "version_normalized": "5.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/process.git",
+                    "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/313a38f09c77fbcdc1d223e57d368cea76a2fd2f",
+                    "reference": "313a38f09c77fbcdc1d223e57d368cea76a2fd2f"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-php80": "^1.15"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Process\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Executes commands in sub-processes",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/process",
+                "version": "v5.3.2",
+                "version_normalized": "5.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/process.git",
+                    "reference": "714b47f9196de61a196d86c4bad5f09201b307df"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/714b47f9196de61a196d86c4bad5f09201b307df",
+                    "reference": "714b47f9196de61a196d86c4bad5f09201b307df"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-php80": "^1.15"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Process\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Executes commands in sub-processes",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/process",
+                "version": "v5.2.7",
+                "version_normalized": "5.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/process.git",
+                    "reference": "98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e",
+                    "reference": "98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-php80": "^1.15"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Process\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Executes commands in sub-processes",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

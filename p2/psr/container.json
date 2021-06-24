@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "psr/container": [
+            {
+                "name": "psr/container",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/container.git",
+                    "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                    "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
+                },
+                "require": {
+                    "php": ">=7.2.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\Container\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "https://www.php-fig.org/"
+                    }
+                ],
+                "description": "Common Container Interface (PHP FIG PSR-11)",
+                "homepage": "https://github.com/php-fig/container",
+                "keywords": [
+                    "container",
+                    "container-interface",
+                    "container-interop",
+                    "psr",
+                    "psr-11"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "packages": {
+        "psr/event-dispatcher": [
+            {
+                "name": "psr/event-dispatcher",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/event-dispatcher.git",
+                    "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                    "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+                },
+                "require": {
+                    "php": ">=7.2.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\EventDispatcher\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "http://www.php-fig.org/"
+                    }
+                ],
+                "description": "Standard interfaces for event handling.",
+                "keywords": [
+                    "events",
+                    "psr",
+                    "psr-14"
+                ]
+            }
+        ]
+    }
+}

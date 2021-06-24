@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "seld/phar-utils": [
+            {
+                "name": "seld/phar-utils",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Seldaek/phar-utils.git",
+                    "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/8674b1d84ffb47cc59a101f5d5a3b61e87d23796",
+                    "reference": "8674b1d84ffb47cc59a101f5d5a3b61e87d23796"
+                },
+                "require": {
+                    "php": ">=5.3"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Seld\\PharUtils\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jordi Boggiano",
+                        "email": "j.boggiano@seld.be"
+                    }
+                ],
+                "description": "PHAR file format utilities, for when PHP phars you up",
+                "keywords": [
+                    "phar"
+                ]
+            }
+        ]
+    }
+}

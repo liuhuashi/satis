@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "rjyxz/aliyun-php-sdk-core": [
+            {
+                "name": "rjyxz/aliyun-php-sdk-core",
+                "version": "v1.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:pythonschool/liuhuashi/aliyun-php-sdk-core.git",
+                    "reference": "4c38415939d0e09cb4089c31f4d64232400983ed"
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/aliyun-php-sdk-core/Config.php"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Moments"
+                    }
+                ],
+                "description": "阿里云 PHP SDK，用于创建并初始化DefaultAcsClient实例。"
+            },
+            {
+                "name": "rjyxz/aliyun-php-sdk-core",
+                "version": "master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@codeup.aliyun.com:pythonschool/liuhuashi/aliyun-php-sdk-core.git",
+                    "reference": "4c38415939d0e09cb4089c31f4d64232400983ed"
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/aliyun-php-sdk-core/Config.php"
+                    ]
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Moments"
+                    }
+                ],
+                "description": "阿里云 PHP SDK，用于创建并初始化DefaultAcsClient实例。"
+            }
+        ]
+    }
+}

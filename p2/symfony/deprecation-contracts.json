@@ -1,0 +1,102 @@
+{
+    "packages": {
+        "symfony/deprecation-contracts": [
+            {
+                "name": "symfony/deprecation-contracts",
+                "version": "v2.2.0",
+                "version_normalized": "2.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/deprecation-contracts.git",
+                    "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+                    "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.2-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "function.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A generic function and convention to trigger deprecation notices",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/deprecation-contracts",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/deprecation-contracts.git",
+                    "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/5f38c8804a9e97d23e0c8d63341088cd8a22d627",
+                    "reference": "5f38c8804a9e97d23e0c8d63341088cd8a22d627"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "2.4-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "files": [
+                        "function.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "A generic function and convention to trigger deprecation notices",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

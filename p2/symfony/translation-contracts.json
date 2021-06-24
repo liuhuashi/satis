@@ -1,0 +1,124 @@
+{
+    "packages": {
+        "symfony/translation-contracts": [
+            {
+                "name": "symfony/translation-contracts",
+                "version": "v2.3.0",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation-contracts.git",
+                    "reference": "e2eaa60b558f26a4b0354e1bbb25636efaaad105"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/e2eaa60b558f26a4b0354e1bbb25636efaaad105",
+                    "reference": "e2eaa60b558f26a4b0354e1bbb25636efaaad105"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "suggest": {
+                    "symfony/translation-implementation": ""
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.3-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Translation\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to translation",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ]
+            },
+            {
+                "name": "symfony/translation-contracts",
+                "version": "v2.4.0",
+                "version_normalized": "2.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/translation-contracts.git",
+                    "reference": "95c812666f3e91db75385749fe219c5e494c7f95"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/95c812666f3e91db75385749fe219c5e494c7f95",
+                    "reference": "95c812666f3e91db75385749fe219c5e494c7f95"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "suggest": {
+                    "symfony/translation-implementation": ""
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "2.4-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/contracts",
+                        "url": "https://github.com/symfony/contracts"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Contracts\\Translation\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Generic abstractions related to translation",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "abstractions",
+                    "contracts",
+                    "decoupling",
+                    "interfaces",
+                    "interoperability",
+                    "standards"
+                ]
+            }
+        ]
+    }
+}

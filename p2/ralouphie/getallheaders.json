@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "ralouphie/getallheaders": [
+            {
+                "name": "ralouphie/getallheaders",
+                "version": "3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ralouphie/getallheaders.git",
+                    "reference": "120b605dfeb996808c31b6477290a714d356e822"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/120b605dfeb996808c31b6477290a714d356e822",
+                    "reference": "120b605dfeb996808c31b6477290a714d356e822"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "php-coveralls/php-coveralls": "^2.1",
+                    "phpunit/phpunit": "^5 || ^6.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "files": [
+                        "src/getallheaders.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "getallheaders\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ralph Khattar",
+                        "email": "ralph.khattar@gmail.com"
+                    }
+                ],
+                "description": "A polyfill for getallheaders."
+            }
+        ]
+    }
+}

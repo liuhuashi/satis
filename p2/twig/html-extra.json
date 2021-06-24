@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "twig/html-extra": [
+            {
+                "name": "twig/html-extra",
+                "version": "v3.3.0",
+                "version_normalized": "3.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/twigphp/html-extra.git",
+                    "reference": "fb14ea62ddb1ab4dab44eb87c087b6f89dbc4df2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/fb14ea62ddb1ab4dab44eb87c087b6f89dbc4df2",
+                    "reference": "fb14ea62ddb1ab4dab44eb87c087b6f89dbc4df2"
+                },
+                "require": {
+                    "php": ">=7.1.3",
+                    "symfony/mime": "^4.3|^5.0",
+                    "twig/twig": "^2.4|^3.0"
+                },
+                "require-dev": {
+                    "symfony/phpunit-bridge": "^4.4.9|^5.0.9"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "3.2-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Twig\\Extra\\Html\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com",
+                        "homepage": "http://fabien.potencier.org",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "A Twig extension for HTML",
+                "homepage": "https://twig.symfony.com",
+                "keywords": [
+                    "html",
+                    "twig"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "packages": {
+        "overtrue/laravel-lang": [
+            {
+                "name": "overtrue/laravel-lang",
+                "version": "4.2.1",
+                "version_normalized": "4.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/overtrue/laravel-lang.git",
+                    "reference": "653189caa6eac682fa5d15482f271489721231c7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/653189caa6eac682fa5d15482f271489721231c7",
+                    "reference": "653189caa6eac682fa5d15482f271489721231c7"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "laravel-lang/lang": "^7.0",
+                    "symfony/process": "^5.0.0"
+                },
+                "require-dev": {
+                    "laravel/framework": "~8.1"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Overtrue\\LaravelLang\\TranslationServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Overtrue\\LaravelLang\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "check-style": [
+                        "php-cs-fixer fix --using-cache=no --diff --config=.php_cs --dry-run --ansi"
+                    ],
+                    "fix-style": [
+                        "php-cs-fixer fix --using-cache=no --config=.php_cs --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "overtrue",
+                        "email": "anzhengchao@gmail.com"
+                    }
+                ],
+                "description": "List of 75 languages for Laravel 4, 5, 6 and 7",
+                "keywords": [
+                    "i18n",
+                    "languages",
+                    "laravel",
+                    "locale",
+                    "overtrue"
+                ]
+            },
+            {
+                "name": "overtrue/laravel-lang",
+                "version": "4.2.2",
+                "version_normalized": "4.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/overtrue/laravel-lang.git",
+                    "reference": "d8c35f9c21df83a9f418a80b3be5e131bae29494"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/d8c35f9c21df83a9f418a80b3be5e131bae29494",
+                    "reference": "d8c35f9c21df83a9f418a80b3be5e131bae29494"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "laravel-lang/lang": "^5.0",
+                    "symfony/process": "^4.0|^5.0"
+                },
+                "require-dev": {
+                    "laravel/framework": "~8.1"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Overtrue\\LaravelLang\\TranslationServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Overtrue\\LaravelLang\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "check-style": [
+                        "php-cs-fixer fix --using-cache=no --diff --config=.php_cs --dry-run --ansi"
+                    ],
+                    "fix-style": [
+                        "php-cs-fixer fix --using-cache=no --config=.php_cs --ansi"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "overtrue",
+                        "email": "anzhengchao@gmail.com"
+                    }
+                ],
+                "description": "List of 75 languages for Laravel 4, 5, 6 and 7",
+                "keywords": [
+                    "i18n",
+                    "languages",
+                    "laravel",
+                    "locale",
+                    "overtrue"
+                ]
+            }
+        ]
+    }
+}

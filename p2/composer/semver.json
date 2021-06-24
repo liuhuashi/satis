@@ -1,0 +1,157 @@
+{
+    "packages": {
+        "composer/semver": [
+            {
+                "name": "composer/semver",
+                "version": "3.2.4",
+                "version_normalized": "3.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/semver.git",
+                    "reference": "a02fdf930a3c1c3ed3a49b5f63859c0c20e10464"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/a02fdf930a3c1c3ed3a49b5f63859c0c20e10464",
+                    "reference": "a02fdf930a3c1c3ed3a49b5f63859c0c20e10464"
+                },
+                "require": {
+                    "php": "^5.3.2 || ^7.0 || ^8.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^0.12.54",
+                    "symfony/phpunit-bridge": "^4.2 || ^5"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Semver\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Composer\\Semver\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/simple-phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nils Adermann",
+                        "email": "naderman@naderman.de",
+                        "homepage": "http://www.naderman.de"
+                    },
+                    {
+                        "name": "Jordi Boggiano",
+                        "email": "j.boggiano@seld.be",
+                        "homepage": "http://seld.be"
+                    },
+                    {
+                        "name": "Rob Bast",
+                        "email": "rob.bast@gmail.com",
+                        "homepage": "http://robbast.nl"
+                    }
+                ],
+                "description": "Semver library that offers utilities, version constraint parsing and validation.",
+                "keywords": [
+                    "semantic",
+                    "semver",
+                    "validation",
+                    "versioning"
+                ],
+                "support": {
+                    "irc": "irc://irc.freenode.org/composer",
+                    "issues": "https://github.com/composer/semver/issues"
+                }
+            },
+            {
+                "name": "composer/semver",
+                "version": "3.2.5",
+                "version_normalized": "3.2.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/semver.git",
+                    "reference": "31f3ea725711245195f62e54ffa402d8ef2fdba9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/31f3ea725711245195f62e54ffa402d8ef2fdba9",
+                    "reference": "31f3ea725711245195f62e54ffa402d8ef2fdba9"
+                },
+                "require": {
+                    "php": "^5.3.2 || ^7.0 || ^8.0"
+                },
+                "require-dev": {
+                    "phpstan/phpstan": "^0.12.54",
+                    "symfony/phpunit-bridge": "^4.2 || ^5"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Semver\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Composer\\Semver\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "SYMFONY_PHPUNIT_REMOVE_RETURN_TYPEHINT=1 vendor/bin/simple-phpunit"
+                    ],
+                    "phpstan": [
+                        "phpstan analyse"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nils Adermann",
+                        "email": "naderman@naderman.de",
+                        "homepage": "http://www.naderman.de"
+                    },
+                    {
+                        "name": "Jordi Boggiano",
+                        "email": "j.boggiano@seld.be",
+                        "homepage": "http://seld.be"
+                    },
+                    {
+                        "name": "Rob Bast",
+                        "email": "rob.bast@gmail.com",
+                        "homepage": "http://robbast.nl"
+                    }
+                ],
+                "description": "Semver library that offers utilities, version constraint parsing and validation.",
+                "keywords": [
+                    "semantic",
+                    "semver",
+                    "validation",
+                    "versioning"
+                ],
+                "support": {
+                    "irc": "irc://irc.freenode.org/composer",
+                    "issues": "https://github.com/composer/semver/issues"
+                }
+            }
+        ]
+    }
+}

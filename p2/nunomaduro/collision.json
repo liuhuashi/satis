@@ -1,0 +1,204 @@
+{
+    "packages": {
+        "nunomaduro/collision": [
+            {
+                "name": "nunomaduro/collision",
+                "version": "v5.3.0",
+                "version_normalized": "5.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nunomaduro/collision.git",
+                    "reference": "aca63581f380f63a492b1e3114604e411e39133a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/aca63581f380f63a492b1e3114604e411e39133a",
+                    "reference": "aca63581f380f63a492b1e3114604e411e39133a"
+                },
+                "require": {
+                    "facade/ignition-contracts": "^1.0",
+                    "filp/whoops": "^2.7.2",
+                    "php": "^7.3 || ^8.0",
+                    "symfony/console": "^5.0"
+                },
+                "require-dev": {
+                    "brianium/paratest": "^6.1",
+                    "fideloper/proxy": "^4.4.1",
+                    "friendsofphp/php-cs-fixer": "^2.17.3",
+                    "fruitcake/laravel-cors": "^2.0.3",
+                    "laravel/framework": "^9.0",
+                    "nunomaduro/larastan": "^0.6.2",
+                    "nunomaduro/mock-final-classes": "^1.0",
+                    "orchestra/testbench": "^7.0",
+                    "phpstan/phpstan": "^0.12.64",
+                    "phpunit/phpunit": "^9.5.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "NunoMaduro\\Collision\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\": "tests/Unit",
+                        "Tests\\FakeProgram\\": "tests/FakeProgram",
+                        "Tests\\": "tests/LaravelApp/tests",
+                        "App\\": "tests/LaravelApp/app/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "php-cs-fixer fix -v --allow-risky=yes"
+                    ],
+                    "test:types": [
+                        "phpstan analyse --ansi"
+                    ],
+                    "test:unit": [
+                        "phpunit --colors=always"
+                    ],
+                    "test:lint": [
+                        "php-cs-fixer fix -v --dry-run --allow-risky=yes"
+                    ],
+                    "test": [
+                        "@test:lint",
+                        "@test:types",
+                        "@test:unit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nuno Maduro",
+                        "email": "enunomaduro@gmail.com"
+                    }
+                ],
+                "description": "Cli error handling for console/command-line PHP applications.",
+                "keywords": [
+                    "artisan",
+                    "cli",
+                    "command-line",
+                    "console",
+                    "error",
+                    "handling",
+                    "laravel",
+                    "laravel-zero",
+                    "php",
+                    "symfony"
+                ],
+                "support": {
+                    "issues": "https://github.com/nunomaduro/collision/issues",
+                    "source": "https://github.com/nunomaduro/collision"
+                }
+            },
+            {
+                "name": "nunomaduro/collision",
+                "version": "v5.4.0",
+                "version_normalized": "5.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nunomaduro/collision.git",
+                    "reference": "41b7e9999133d5082700d31a1d0977161df8322a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/41b7e9999133d5082700d31a1d0977161df8322a",
+                    "reference": "41b7e9999133d5082700d31a1d0977161df8322a"
+                },
+                "require": {
+                    "facade/ignition-contracts": "^1.0",
+                    "filp/whoops": "^2.7.2",
+                    "php": "^7.3 || ^8.0",
+                    "symfony/console": "^5.0"
+                },
+                "require-dev": {
+                    "brianium/paratest": "^6.1",
+                    "fideloper/proxy": "^4.4.1",
+                    "friendsofphp/php-cs-fixer": "^2.17.3",
+                    "fruitcake/laravel-cors": "^2.0.3",
+                    "laravel/framework": "^9.0",
+                    "nunomaduro/larastan": "^0.6.2",
+                    "nunomaduro/mock-final-classes": "^1.0",
+                    "orchestra/testbench": "^7.0",
+                    "phpstan/phpstan": "^0.12.64",
+                    "phpunit/phpunit": "^9.5.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "NunoMaduro\\Collision\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\Unit\\": "tests/Unit",
+                        "Tests\\FakeProgram\\": "tests/FakeProgram",
+                        "Tests\\": "tests/LaravelApp/tests",
+                        "App\\": "tests/LaravelApp/app/"
+                    }
+                },
+                "scripts": {
+                    "lint": [
+                        "php-cs-fixer fix -v --allow-risky=yes"
+                    ],
+                    "test:types": [
+                        "phpstan analyse --ansi"
+                    ],
+                    "test:unit": [
+                        "phpunit --colors=always"
+                    ],
+                    "test:lint": [
+                        "php-cs-fixer fix -v --dry-run --allow-risky=yes"
+                    ],
+                    "test": [
+                        "@test:lint",
+                        "@test:types",
+                        "@test:unit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nuno Maduro",
+                        "email": "enunomaduro@gmail.com"
+                    }
+                ],
+                "description": "Cli error handling for console/command-line PHP applications.",
+                "keywords": [
+                    "artisan",
+                    "cli",
+                    "command-line",
+                    "console",
+                    "error",
+                    "handling",
+                    "laravel",
+                    "laravel-zero",
+                    "php",
+                    "symfony"
+                ],
+                "support": {
+                    "issues": "https://github.com/nunomaduro/collision/issues",
+                    "source": "https://github.com/nunomaduro/collision"
+                }
+            }
+        ]
+    }
+}

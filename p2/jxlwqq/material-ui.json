@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "jxlwqq/material-ui": [
+            {
+                "name": "jxlwqq/material-ui",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/laravel-admin-extensions/material-ui.git",
+                    "reference": "b14700437fe2a1aec0717ad51a1195d4cae227a6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/b14700437fe2a1aec0717ad51a1195d4cae227a6",
+                    "reference": "b14700437fe2a1aec0717ad51a1195d4cae227a6"
+                },
+                "require": {
+                    "encore/laravel-admin": ">=1.6.1",
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Jxlwqq\\MaterialUI\\MaterialUIServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Jxlwqq\\MaterialUI\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "jxlwqq",
+                        "email": "jxlwqq@gmail.com"
+                    }
+                ],
+                "description": "material ui for laravel-admin",
+                "homepage": "https://github.com/jxlwqq/material-ui",
+                "keywords": [
+                    "extension",
+                    "laravel-admin"
+                ]
+            }
+        ]
+    }
+}

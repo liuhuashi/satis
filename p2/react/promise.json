@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "react/promise": [
+            {
+                "name": "react/promise",
+                "version": "v2.8.0",
+                "version_normalized": "2.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/reactphp/promise.git",
+                    "reference": "f3cff96a19736714524ca0dd1d4130de73dbbbc4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/f3cff96a19736714524ca0dd1d4130de73dbbbc4",
+                    "reference": "f3cff96a19736714524ca0dd1d4130de73dbbbc4"
+                },
+                "require": {
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.0 || ^6.5 || ^5.7 || ^4.8.36"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "React\\Promise\\": "src/"
+                    },
+                    "files": [
+                        "src/functions_include.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "React\\Promise\\": [
+                            "tests",
+                            "tests/fixtures"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jan Sorgalla",
+                        "email": "jsorgalla@gmail.com"
+                    }
+                ],
+                "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+                "keywords": [
+                    "promise",
+                    "promises"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "laravel-admin-ext/media-manager": [
+            {
+                "name": "laravel-admin-ext/media-manager",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/laravel-admin-extensions/media-manager.git",
+                    "reference": "08ef816da82e543f7519d6b17aa34f1ef13adaab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/08ef816da82e543f7519d6b17aa34f1ef13adaab",
+                    "reference": "08ef816da82e543f7519d6b17aa34f1ef13adaab"
+                },
+                "require": {
+                    "encore/laravel-admin": "~1.6",
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Encore\\Admin\\Media\\MediaServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Encore\\Admin\\Media\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "z-song",
+                        "email": "zosong@126.com"
+                    }
+                ],
+                "description": "Media manager for laravel",
+                "homepage": "https://github.com/laravel-admin-extensions/media-manager",
+                "keywords": [
+                    "laravel-admin",
+                    "manager",
+                    "media"
+                ]
+            }
+        ]
+    }
+}

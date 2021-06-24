@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "phpdocumentor/type-resolver": [
+            {
+                "name": "phpdocumentor/type-resolver",
+                "version": "1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                    "reference": "6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0",
+                    "reference": "6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0"
+                },
+                "require": {
+                    "php": "^7.2 || ^8.0",
+                    "phpdocumentor/reflection-common": "^2.0"
+                },
+                "require-dev": {
+                    "ext-tokenizer": "*"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-1.x": "1.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "phpDocumentor\\Reflection\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "phpDocumentor\\Reflection\\": [
+                            "tests/unit",
+                            "tests/benchmark"
+                        ]
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mike van Riel",
+                        "email": "me@mikevanriel.com"
+                    }
+                ],
+                "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names"
+            }
+        ]
+    }
+}

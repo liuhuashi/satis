@@ -1,0 +1,46 @@
+{
+    "packages": {
+        "laravel-lang/lang": [
+            {
+                "name": "laravel-lang/lang",
+                "version": "7.0.9",
+                "version_normalized": "7.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Laravel-Lang/lang.git",
+                    "reference": "679a65755db37b35acd36a5e0ca51e055815a00a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/679a65755db37b35acd36a5e0ca51e055815a00a",
+                    "reference": "679a65755db37b35acd36a5e0ca51e055815a00a"
+                },
+                "require": {
+                    "ext-json": "*"
+                },
+                "suggest": {
+                    "andrey-helldar/laravel-lang-publisher": "Easy installation and update of translation files for your project",
+                    "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+                    "overtrue/laravel-lang": "Command to add languages in your project"
+                },
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Laravel-Lang Team",
+                        "url": "https://github.com/Laravel-Lang"
+                    }
+                ],
+                "description": "Languages for Laravel",
+                "keywords": [
+                    "lang",
+                    "languages",
+                    "laravel",
+                    "lpm"
+                ]
+            }
+        ]
+    }
+}

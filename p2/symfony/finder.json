@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "symfony/finder": [
+            {
+                "name": "symfony/finder",
+                "version": "v5.2.4",
+                "version_normalized": "5.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/finder.git",
+                    "reference": "0d639a0943822626290d169965804f79400e6a04"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/0d639a0943822626290d169965804f79400e6a04",
+                    "reference": "0d639a0943822626290d169965804f79400e6a04"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Finder\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Finds files and directories via an intuitive fluent interface",
+                "homepage": "https://symfony.com"
+            }
+        ]
+    }
+}

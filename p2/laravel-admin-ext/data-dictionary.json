@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "laravel-admin-ext/data-dictionary": [
+            {
+                "name": "laravel-admin-ext/data-dictionary",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/laravel-admin-extensions/data-dictionary.git",
+                    "reference": "2bb848303fd4644d6a388e5914f83dc5ef6530ba"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/2bb848303fd4644d6a388e5914f83dc5ef6530ba",
+                    "reference": "2bb848303fd4644d6a388e5914f83dc5ef6530ba"
+                },
+                "require": {
+                    "encore/laravel-admin": "~1.6",
+                    "php": ">=7.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~6.0"
+                },
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Encore\\Admin\\DataDictionary\\DataDictionaryServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Encore\\Admin\\DataDictionary\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "z-song",
+                        "email": "zosong@126.com"
+                    }
+                ],
+                "description": "Mysql data dictionary",
+                "homepage": "https://github.com/laravel-admin-ext/data-dictionary",
+                "keywords": [
+                    "data",
+                    "dictionary",
+                    "extension",
+                    "laravel-admin",
+                    "mysql"
+                ]
+            }
+        ]
+    }
+}

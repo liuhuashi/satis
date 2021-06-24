@@ -1,0 +1,168 @@
+{
+    "packages": {
+        "fruitcake/laravel-cors": [
+            {
+                "name": "fruitcake/laravel-cors",
+                "version": "v2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/fruitcake/laravel-cors.git",
+                    "reference": "01de0fe5f71c70d1930ee9a80385f9cc28e0f63a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/01de0fe5f71c70d1930ee9a80385f9cc28e0f63a",
+                    "reference": "01de0fe5f71c70d1930ee9a80385f9cc28e0f63a"
+                },
+                "require": {
+                    "asm89/stack-cors": "^2.0.1",
+                    "illuminate/contracts": "^6|^7|^8|^9",
+                    "illuminate/support": "^6|^7|^8|^9",
+                    "php": ">=7.2",
+                    "symfony/http-foundation": "^4|^5",
+                    "symfony/http-kernel": "^4.3.4|^5"
+                },
+                "require-dev": {
+                    "laravel/framework": "^6|^7|^8",
+                    "orchestra/testbench-dusk": "^4|^5|^6",
+                    "phpunit/phpunit": "^6|^7|^8",
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Fruitcake\\Cors\\CorsServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Fruitcake\\Cors\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Fruitcake\\Cors\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "check-style": [
+                        "phpcs -p --standard=psr12 src/"
+                    ],
+                    "fix-style": [
+                        "phpcbf -p --standard=psr12 src/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fruitcake",
+                        "homepage": "https://fruitcake.nl"
+                    },
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Adds CORS (Cross-Origin Resource Sharing) headers support in your Laravel application",
+                "keywords": [
+                    "api",
+                    "cors",
+                    "crossdomain",
+                    "laravel"
+                ]
+            },
+            {
+                "name": "fruitcake/laravel-cors",
+                "version": "v2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/fruitcake/laravel-cors.git",
+                    "reference": "a8ccedc7ca95189ead0e407c43b530dc17791d6a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/a8ccedc7ca95189ead0e407c43b530dc17791d6a",
+                    "reference": "a8ccedc7ca95189ead0e407c43b530dc17791d6a"
+                },
+                "require": {
+                    "asm89/stack-cors": "^2.0.1",
+                    "illuminate/contracts": "^6|^7|^8|^9",
+                    "illuminate/support": "^6|^7|^8|^9",
+                    "php": ">=7.2",
+                    "symfony/http-foundation": "^4|^5",
+                    "symfony/http-kernel": "^4.3.4|^5"
+                },
+                "require-dev": {
+                    "laravel/framework": "^6|^7|^8",
+                    "orchestra/testbench-dusk": "^4|^5|^6|^7",
+                    "phpunit/phpunit": "^6|^7|^8|^9",
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0-dev"
+                    },
+                    "laravel": {
+                        "providers": [
+                            "Fruitcake\\Cors\\CorsServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Fruitcake\\Cors\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Fruitcake\\Cors\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "check-style": [
+                        "phpcs -p --standard=psr12 src/"
+                    ],
+                    "fix-style": [
+                        "phpcbf -p --standard=psr12 src/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fruitcake",
+                        "homepage": "https://fruitcake.nl"
+                    },
+                    {
+                        "name": "Barry vd. Heuvel",
+                        "email": "barryvdh@gmail.com"
+                    }
+                ],
+                "description": "Adds CORS (Cross-Origin Resource Sharing) headers support in your Laravel application",
+                "keywords": [
+                    "api",
+                    "cors",
+                    "crossdomain",
+                    "laravel"
+                ]
+            }
+        ]
+    }
+}

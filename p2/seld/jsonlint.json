@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "seld/jsonlint": [
+            {
+                "name": "seld/jsonlint",
+                "version": "1.8.3",
+                "version_normalized": "1.8.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Seldaek/jsonlint.git",
+                    "reference": "9ad6ce79c342fbd44df10ea95511a1b24dee5b57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/9ad6ce79c342fbd44df10ea95511a1b24dee5b57",
+                    "reference": "9ad6ce79c342fbd44df10ea95511a1b24dee5b57"
+                },
+                "require": {
+                    "php": "^5.3 || ^7.0 || ^8.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+                },
+                "bin": [
+                    "bin/jsonlint"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Jordi Boggiano",
+                        "email": "j.boggiano@seld.be",
+                        "homepage": "http://seld.be"
+                    }
+                ],
+                "description": "JSON Linter",
+                "keywords": [
+                    "json",
+                    "linter",
+                    "parser",
+                    "validator"
+                ]
+            }
+        ]
+    }
+}
