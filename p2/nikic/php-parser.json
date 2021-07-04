@@ -110,6 +110,61 @@
                     "parser",
                     "php"
                 ]
+            },
+            {
+                "name": "nikic/php-parser",
+                "version": "v4.11.0",
+                "version_normalized": "4.11.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nikic/PHP-Parser.git",
+                    "reference": "fe14cf3672a149364fb66dfe11bf6549af899f94"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/fe14cf3672a149364fb66dfe11bf6549af899f94",
+                    "reference": "fe14cf3672a149364fb66dfe11bf6549af899f94"
+                },
+                "require": {
+                    "ext-tokenizer": "*",
+                    "php": ">=7.0"
+                },
+                "require-dev": {
+                    "ircmaxell/php-yacc": "^0.0.7",
+                    "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
+                },
+                "bin": [
+                    "bin/php-parse"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "4.9-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "PhpParser\\": "lib/PhpParser"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "PhpParser\\": "test/PhpParser/"
+                    }
+                },
+                "license": [
+                    "BSD-3-Clause"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Popov"
+                    }
+                ],
+                "description": "A PHP parser written in PHP",
+                "keywords": [
+                    "parser",
+                    "php"
+                ]
             }
         ]
     }

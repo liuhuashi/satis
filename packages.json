@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9b2eb1241709ba9ccd3662617b297a92ba1321a1.json": {
-            "sha1": "9b2eb1241709ba9ccd3662617b297a92ba1321a1"
+        "include/all$3d5687c93544ad2f687fcfa44d8ebd86c35f7e3c.json": {
+            "sha1": "3d5687c93544ad2f687fcfa44d8ebd86c35f7e3c"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -137,18 +137,21 @@
         "twig/html-extra",
         "twig/twig",
         "laravel/sail",
+        "erusev/parsedown",
+        "erusev/parsedown-extra",
+        "laravel/ui",
+        "predis/predis",
+        "psr/http-factory",
+        "qiniu/php-sdk",
+        "symfony/dom-crawler",
+        "doctrine/deprecations",
         "adbario/php-dot-notation",
         "alibabacloud/client",
         "alibabacloud/sdk",
         "clagiordano/weblibs-configmanager",
         "danielstjules/stringy",
-        "laravel/ui",
         "mtdowling/jmespath.php",
-        "predis/predis",
-        "doctrine/deprecations",
         "encore/laravel-admin",
-        "erusev/parsedown",
-        "erusev/parsedown-extra",
         "jxlwqq/id-validator",
         "jxlwqq/json-editor",
         "jxlwqq/material-ui",
@@ -160,7 +163,6 @@
         "laravel-admin-ext/media-player",
         "laravel-admin-ext/redis-manager",
         "laravel-admin-ext/scheduling",
-        "symfony/dom-crawler",
         "laravel/telescope"
     ]
 }

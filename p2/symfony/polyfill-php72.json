@@ -57,6 +57,63 @@
                     "portable",
                     "shim"
                 ]
+            },
+            {
+                "name": "symfony/polyfill-php72",
+                "version": "v1.23.0",
+                "version_normalized": "1.23.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/polyfill-php72.git",
+                    "reference": "9a142215a36a3888e30d0a9eeea9766764e96976"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/9a142215a36a3888e30d0a9eeea9766764e96976",
+                    "reference": "9a142215a36a3888e30d0a9eeea9766764e96976"
+                },
+                "require": {
+                    "php": ">=7.1"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-main": "1.23-dev"
+                    },
+                    "thanks": {
+                        "name": "symfony/polyfill",
+                        "url": "https://github.com/symfony/polyfill"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Polyfill\\Php72\\": ""
+                    },
+                    "files": [
+                        "bootstrap.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Nicolas Grekas",
+                        "email": "p@tchwork.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+                "homepage": "https://symfony.com",
+                "keywords": [
+                    "compatibility",
+                    "polyfill",
+                    "portable",
+                    "shim"
+                ]
             }
         ]
     }

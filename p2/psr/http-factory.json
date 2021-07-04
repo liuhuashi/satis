@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "psr/http-factory": [
+            {
+                "name": "psr/http-factory",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/php-fig/http-factory.git",
+                    "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                    "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+                },
+                "require": {
+                    "php": ">=7.0.0",
+                    "psr/http-message": "^1.0"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Psr\\Http\\Message\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "PHP-FIG",
+                        "homepage": "http://www.php-fig.org/"
+                    }
+                ],
+                "description": "Common interfaces for PSR-7 HTTP message factories",
+                "keywords": [
+                    "factory",
+                    "http",
+                    "message",
+                    "psr",
+                    "psr-17",
+                    "psr-7",
+                    "request",
+                    "response"
+                ]
+            }
+        ]
+    }
+}

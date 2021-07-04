@@ -136,6 +136,75 @@
             },
             {
                 "name": "filp/whoops",
+                "version": "2.13.0",
+                "version_normalized": "2.13.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/filp/whoops.git",
+                    "reference": "2edbc73a4687d9085c8f20f398eebade844e8424"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/2edbc73a4687d9085c8f20f398eebade844e8424",
+                    "reference": "2edbc73a4687d9085c8f20f398eebade844e8424"
+                },
+                "require": {
+                    "php": "^5.5.9 || ^7.0 || ^8.0",
+                    "psr/log": "^1.0.1"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^0.9 || ^1.0",
+                    "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.3",
+                    "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0 || ^5.0"
+                },
+                "suggest": {
+                    "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                    "whoops/soap": "Formats errors as SOAP responses"
+                },
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.7-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Whoops\\": "src/Whoops/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Whoops\\": "tests/Whoops/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit --testdox tests"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Filipe Dobreira",
+                        "homepage": "https://github.com/filp",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "php error handling for cool kids",
+                "homepage": "https://filp.github.io/whoops/",
+                "keywords": [
+                    "error",
+                    "exception",
+                    "handling",
+                    "library",
+                    "throwable",
+                    "whoops"
+                ]
+            },
+            {
+                "name": "filp/whoops",
                 "version": "2.12.0",
                 "version_normalized": "2.12.0.0",
                 "source": {

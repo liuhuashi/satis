@@ -89,6 +89,49 @@
             },
             {
                 "name": "symfony/filesystem",
+                "version": "v5.3.3",
+                "version_normalized": "5.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/filesystem.git",
+                    "reference": "19b71c8f313b411172dd5f470fd61f24466d79a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/19b71c8f313b411172dd5f470fd61f24466d79a9",
+                    "reference": "19b71c8f313b411172dd5f470fd61f24466d79a9"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "symfony/polyfill-ctype": "~1.8"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\Filesystem\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides basic utilities for the filesystem",
+                "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/filesystem",
                 "version": "v5.3.0",
                 "version_normalized": "5.3.0.0",
                 "source": {

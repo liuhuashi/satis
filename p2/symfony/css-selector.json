@@ -92,6 +92,52 @@
                 ],
                 "description": "Converts CSS selectors to XPath expressions",
                 "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/css-selector",
+                "version": "v5.3.0",
+                "version_normalized": "5.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/css-selector.git",
+                    "reference": "fcd0b29a7a0b1bb5bfbedc6231583d77fea04814"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/fcd0b29a7a0b1bb5bfbedc6231583d77fea04814",
+                    "reference": "fcd0b29a7a0b1bb5bfbedc6231583d77fea04814"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\CssSelector\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Jean-François Simon",
+                        "email": "jeanfrancois.simon@sensiolabs.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Converts CSS selectors to XPath expressions",
+                "homepage": "https://symfony.com"
             }
         ]
     }

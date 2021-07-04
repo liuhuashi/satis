@@ -150,6 +150,56 @@
                 ],
                 "description": "Provides tools to manage errors and ease debugging PHP code",
                 "homepage": "https://symfony.com"
+            },
+            {
+                "name": "symfony/error-handler",
+                "version": "v5.3.3",
+                "version_normalized": "5.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/symfony/error-handler.git",
+                    "reference": "43323e79c80719e8a4674e33484bca98270d223f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://satis.pythonschool.com/dist/43323e79c80719e8a4674e33484bca98270d223f",
+                    "reference": "43323e79c80719e8a4674e33484bca98270d223f"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "psr/log": "^1.0",
+                    "symfony/polyfill-php80": "^1.15",
+                    "symfony/var-dumper": "^4.4|^5.0"
+                },
+                "require-dev": {
+                    "symfony/deprecation-contracts": "^2.1",
+                    "symfony/http-kernel": "^4.4|^5.0",
+                    "symfony/serializer": "^4.4|^5.0"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Symfony\\Component\\ErrorHandler\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabien Potencier",
+                        "email": "fabien@symfony.com"
+                    },
+                    {
+                        "name": "Symfony Community",
+                        "homepage": "https://symfony.com/contributors"
+                    }
+                ],
+                "description": "Provides tools to manage errors and ease debugging PHP code",
+                "homepage": "https://symfony.com"
             }
         ]
     }
